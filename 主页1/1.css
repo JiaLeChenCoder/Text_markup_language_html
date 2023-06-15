@@ -1,0 +1,63 @@
+
+img{
+    height:150% ;
+    width:150% ; 
+    display:inline-block;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+        left: 500px;
+  
+}
+.s1{
+    /* border: 1px rgb(0, 0, 0) solid; */
+    position: absolute;
+    top: 250px;
+    left: 600px;
+    margin: 0px auto;
+}
+
+.background-box {
+    position: relative;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .background-box img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 507%;
+    height: 232%;
+    background-image: url('hy.jpg');
+    background-size: cover;
+    opacity: 0.5;
+  }
+  .sty2_1{
+    height:100%;
+width: 100%;
+  }
+  .sty1{
+    position: absolute;
+    top: 60px;
+    left: 500px;
+    height: 500px;
+    width: 500px;
+
+    /* margin: 0px auto; */
+  }
+  .sty2_1{
+    height: 100%;
+    width: 100%;
+  }
