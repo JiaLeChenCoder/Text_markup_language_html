@@ -1,0 +1,17 @@
+.sty2_1{
+    height:100%;
+width: 100%;
+  }
+  .sty1{
+    position: absolute;
+    top: 60px;
+    left: 500px;
+    height: 500px;
+    width: 500px;
+
+    /* margin: 0px auto; */
+  }
+  .sty2_1{
+    height: 100%;
+    width: 100%;
+  }
