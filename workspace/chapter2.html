@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+<body>
+    无序列表：circle空心圆 disc实心圆 square实心方块<br/>
+    <ul type="square">
+        <li>
+            第一项
+            <ul>
+                <li>111</li>
+                <li>222</li>
+            </ul>
+        </li>
+        <li>第二项</li>
+        <li>第三项</li>
+    </ul>
+
+    有序列表：1  a  A  i  I<br/>
+    <ol type="i">
+        <li>第一项</li>
+        <li>
+            第二项
+            <ol>
+                <li>一项</li>
+            </ol>
+        </li>
+        <li>第三项</li>
+    </ol>
+
+    表格：<br/>
+    <table border="1" align="center">
+        <tr height="100">
+            <td width="100" align="center">1111111</td>
+            <td width="100" align="center">2</td>
+            <td width="100" align="center">3</td>
+        </tr>
+        <tr  height="100" align="center">
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr height="100">
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+    合并单元格：
+    0、画出原始表格
+    1、确认合并单元格是跨行还是跨列
+         [跨列：多列合并成一列]  colspan
+         [跨行：多行合并成一行]  rowspan
+    2、属性写在最左最上单元格里
+    3、删除多余单元格    
+     <br/>
+     
+     <table border="1" >
+            <tr height="100">
+                <td width="200" align="center" colspan="2">1</td>
+               
+                <td width="100" align="center">3</td>
+            </tr>
+            <tr  height="100" align="center">
+                <td>4</td>
+                <td>5</td>
+                <td rowspan="2">6</td>
+            </tr>
+            <tr height="100" align="center">
+                <td>7</td>
+                <td>8</td>
+                
+            </tr>
+
+     </table>
+
+</body>
+</html>

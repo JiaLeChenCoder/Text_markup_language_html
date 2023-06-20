@@ -1,0 +1,19 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* 边框样式 
+   border:  边框线的宽度1px  边框线颜色red  边框线的形状solid
+*/
+
+.div1{
+    border: 1px red solid;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.div2{
+    border: 1px blue solid;
+}

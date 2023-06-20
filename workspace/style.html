@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS样式表</title>
+    <link type="text/css" rel="stylesheet" href="css/s1.css" />
+</head>
+<body>
+    <!-- 注释
+        CSS包含：
+           选择器
+           样式
+        
+        选择器名称：
+           标签选择器：  以网页中标签名作为选择器名称使用
+                        设置页面中所有该标签的样式
+           类选择器：    以 .英文名 作为选择器名使用
+                        在网页标签中写 class="英文名"
+           id选择器：    以 #英文名 作为选择器名使用
+                        在网页标签中写 id="英文名"  [id属性是唯一的]
+        优先级：
+             !important样式  >  id选择器 >  类选择器 > 标签选择器
+
+        样式：
+             字体样式：
+                  font-family   字型
+                  font-size     字体大小   px
+                  font-style    字体风格
+                  font-weight   字体加粗
+             文本样式：
+                  color         字体颜色
+                  text-align    水平对齐方式
+                  vertical-align 垂直对齐方式 【只针对图片和文字的对齐】
+                  line-height   行高[自带垂直对齐居中]  
+                  text-indent   首行缩进
+                  text-decoration 下划线
+             超链接伪类:
+                  a            标签选择器
+                  :hover       鼠标悬停效果
+                               可以对任意网页元素设置
+             列表样式：
+                  list-style-type  列表前的符号样式 
+             背景样式：
+                  背景颜色
+                     background-color  纯色
+                  背景图片
+                     background-image  显示图片
+                     background-repeat 平铺方式  
+                     background-position  位置
+                     background-size    大小
+                  线性渐变效果：
+                     background:linear-gradient(to right botton, 颜色)
+                     top  bottom left right
+    -->
+
+    <p>演示css样式</p>
+    <p class="sty1">演示css样式</p>
+    <p class="sty1">演示css样式</p>
+    <p id="d1">演示css样式1</p>
+    <p id="d2">演示css样式2</p>
+    <p id="d3" class="sty1">演示css样式3</p>
+    <p id="d4" class="sty2">演示css样式4</p>
+
+    <p class="sty3">这是H3标签</p>
+    <p class="sty4">实现水平对齐</p>
+
+    <p>
+        <img src="img/book.jpg" height="100" width="100" />图片后的文字
+    </p>
+    <p class="sty5">
+        首行缩进首行缩进首行缩进首行缩进首行缩进首行缩进首行缩进首行缩进首行缩进首行缩进首行缩进首行缩进首行缩进首行缩进首行缩进
+    </p>
+    <ul class="sty6">
+        <li>第一项</li>
+        <li>第二项</li>
+        <li>第三项</li>
+    </ul>
+    <a href="1.html" class="sty7">超链接</a>
+    <p class="sty8">
+        设置背景颜色
+    </p>
+
+    <p class="sty9">
+
+    </p>
+</body>
+</html>

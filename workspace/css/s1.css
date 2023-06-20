@@ -1,0 +1,92 @@
+/* 注释
+选择器名{
+    样式名称:样式值;
+}
+*/
+
+/* 标签选择器*/
+p{
+    color: red;
+}
+
+/* 类选择器 */
+.sty1{
+    color: blue;
+}
+
+/* id选择器 */
+#d1{
+    color: purple;
+}
+
+#d2{
+    color: green;
+}
+
+#d3{
+    color:pink;
+}
+
+#d4{
+    color: goldenrod;
+}
+.sty2{
+    color: lightslategray !important;
+}
+
+.sty3{
+    font-family: "华文行楷";
+    font-size: 26px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.sty4{
+    text-align:center ;
+    /* vertical-align: middle; */
+    height: 50px;
+    border: 1px red solid;
+    line-height: 50px;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.sty5{
+    text-indent: 32px; /* 1em=16px */
+    text-decoration: line-through;
+}
+.sty6{
+    /* height: 50px; */
+    line-height: 50px;
+    list-style-type: none;
+}
+
+.sty7{
+    color: orange;
+    text-decoration: none;
+    background-color:lightgreen;
+}
+/* a:hover{
+
+} */
+.sty7:hover{
+    color: blue;
+    
+}
+
+.sty8{
+    background-color:lightgreen;
+}
+
+.sty9{
+    /* background-color: lightpink; */
+    height: 200px;
+    width: 200px;
+    background-image: url(../img/bang.gif);
+    background-repeat: no-repeat;
+    background-position:50px 100px;
+    background-size: 50px 50px;
+    background: linear-gradient(to right, red, yellow, blue);
+}

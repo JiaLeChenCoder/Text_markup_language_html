@@ -1,0 +1,61 @@
+#d1{
+    border: 1px red solid;
+    background-color: lightpink;
+    height: 100px;
+    width: 100px;
+}
+#d1:hover{
+    /* 水平方向  垂直方向*/
+    transform: translate(50px,50px);
+}
+
+#d2{
+    border: 1px blue solid;
+    background-color: lightblue;
+    height: 100px;
+    width: 100px;
+}
+#d2:hover{
+    /* 角度单位deg */
+    transform: rotate(45deg);
+}
+
+#d3{
+    border: 1px green solid;
+    background-color: lightgreen;
+    height: 100px;
+    width: 100px;
+    opacity: 1;
+    /*          改变的样式  总耗时  动作方式均速   延迟时间  */
+    transition: all         2s     linear         0s;
+}
+#d3:hover{
+    width: 300px;
+    opacity: 0.1;
+}
+
+#d4{
+    border: 1px purple solid;
+    background-color: lightsalmon;
+    height: 100px;
+    width: 100px;
+}
+
+/* 定义动画 
+   每一帧的样式
+*/
+@keyframes dhm{
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 300px;
+    }
+}
+
+#d4:hover{
+    animation: dhm 2s linear 0s;
+}
