@@ -1,0 +1,71 @@
+
+*{
+  margin: 0px;
+  padding: 0px0;
+}
+img{
+    height:150% ;
+    width:150% ; 
+    display:inline-block;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+        left: 500px;
+  
+}
+.s1{
+    /* border: 1px rgb(0, 0, 0) solid; */
+    position: absolute;
+    top: 250px;
+    left: 600px;
+    margin: 0px auto;
+}
+
+.background-box {
+    position: relative;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .background-box img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /*.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 507%;
+    height: 232%;
+    background-image: url('黑夜1.jpg');
+    background-size:auto;
+    opacity: 0.5;
+  }
+  */
+  .s26{/*border: 1px red solid;*/
+    height: 1080px;
+    width: 1800px;
+    margin: 0px auto;
+
+  }
+  .s26-1{
+    height: 100%;
+    width: 100%;
+  }
+  .s10{
+    /*border: 1px red solid;*/
+    height: 550px;
+    width: 750px;
+    position: absolute;
+
+    top: 40px;
+    left: 45px;
+
+  }
